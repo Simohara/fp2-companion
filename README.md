@@ -259,11 +259,11 @@ are left out of it.
 
 - The dots and the FP2 on the map use the placement for a wall-mounted FP2.
   A ceiling mount has not been checked.
-- Accounts in the China region (CN) sign in with the built-in identity, and
-  the settings read. The live view has not been seen working on CN: in one
-  test the push socket answered the handshake with HTTP 200 instead of 101.
-  A pair of the account's own can still be given as `app_id:app_key` in the
-  first form or in the options.
+- Accounts in the China region (CN) sign in with the built-in identity, the
+  settings read, and the live view's push socket opens and subscribes. Live
+  dots on CN have not been seen yet, because the room was empty during the
+  test. A pair of the account's own can still be given as `app_id:app_key`
+  in the first form or in the options.
 - A zone changes its attribute only from or to detection. To turn an
   entrance zone into the edge, make it a detection zone first.
 - The FP2 also tracks targets outside the room, in the edge zone. They show
